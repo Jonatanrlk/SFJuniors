@@ -80,8 +80,18 @@ ul {
     box-shadow: 3px 2px rgb(98, 165, 113);
 }
 
-.buscador{
-    height: 80px;
-    height: 40px;
-    
+.buscar{
+    background-color:white;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 13px;
+    border: 1px solid grey;
+}
+.buscar:focus-within{
+    border: 1px solid rgb(197, 226, 35)
+}
+
+.buscar > input{
+    outline: none;
+    border:0px;
 }
