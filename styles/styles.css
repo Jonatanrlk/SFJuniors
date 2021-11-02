@@ -111,7 +111,13 @@ ul {
     height: 300px;
     display: flex;
 }
-imagenes > img{
+.imagenes > img{
     object-fit:cover;
     width: 100%;
+}
+.bredimagen{
+    display: flex;
+}
+.bredCar{
+    margin: 10px;
 }
