@@ -1,0 +1,97 @@
+body{
+    margin: 0px;
+
+}
+ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    padding: 10px;
+}
+
+.logo{
+    
+    width: 70px;
+}
+
+.button{
+
+    background-color:rgb(133, 209, 10);
+    color:rgb(138, 42, 55);
+    border: 0px;
+    padding: 20px 20px;
+    border-radius: 20px;
+    font-weight: bolder;
+    
+
+}
+
+.button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+
+}
+
+
+.mainButton{
+    background-color: #a83223;
+    color: ivory;
+}
+.mainButton:hover{
+    box-shadow: 3px 2px rgb(206, 109, 96);
+}
+
+.segundoButton{
+    background-color: rgb(62, 72, 211);
+    color: ivory;
+}
+.segundoButton:hover{
+    box-shadow: 3px 2px rgb(98, 96, 209);
+}
+
+.tercerButton{
+    background-color: rgb(12, 22, 160);
+    color: ivory;
+}
+
+.tercerButton:hover{
+    box-shadow: 3px 2px rgb(88, 88, 202);
+}
+
+.cuartoButton{
+    background-color: rgb(150, 14, 150);
+    color: ivory;
+}
+
+.cuartoButton:hover{
+    box-shadow: 3px 2px rgb(133, 107, 145);
+}
+.quintoButton{
+    background-color: rgb(11, 136, 7);
+    color: ivory;
+}
+.quintoButton:hover{
+    box-shadow: 3px 2px rgb(98, 165, 113);
+}
+
+.buscar{
+    background-color:white;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 13px;
+    border: 1px solid grey;
+}
+.buscar:focus-within{
+    border: 1px solid rgb(197, 226, 35)
+}
+
+.buscar > input{
+    outline: none;
+    border:0px;
+}
