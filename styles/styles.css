@@ -112,6 +112,13 @@ ul {
     height: 300px;
     display: flex;
 }
+
+.imagenes:hover{
+    cursor:pointer;
+    transform: scale(1.02);
+
+}
+
 .imagenes > img{
     object-fit:cover;
     width: 100%;
